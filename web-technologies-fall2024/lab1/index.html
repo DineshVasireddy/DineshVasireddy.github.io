@@ -4,8 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dinesh's Favorite Sport</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <body>
-    
+    <article class="page-container">
+        <div class="profile">
+            <div class="img-container">
+                <img class= "img" src = "static/profile.jpg" alt="Sai_Dinesh_Vasireddy"/>
+            </div>
+            <h3>Sai Dinesh Vasireddy</h3>
+        </div>
+        <div class="sport-details">
+            <h1>My Favorite Sport:</h1>
+            <h2>American Soccer (Football)</h2>
+            <h3>Favorite Soccer Player:</h3>
+            <h4>Messi</h4>
+        </div>
+        <div class="sport-information">
+            <center> Greetings dear friends</center>
+            <p>Soccer has always been my favorite sport to watch rather than to play due to my limitations,
+                and this liking has first started when i was 14 years old and my brother is 18, who is a huge fan
+                of one of the popular players and most arguably G.O.A.T in soccer. and he introduced me to this amazing
+                team-based sport where every player matters. <br/>  After that point we used to watch lots of matches
+                together and understand how well a good managed team can perform and how a single player can also make
+                a difference some times.<br>More about my favorite player can be found here: 
+            </p>
+            <!-- content about my favorite soccer player with a link for more information about him (American soccer = football in other countries)-->
+            <blockquote cite="https://en.wikipedia.org/wiki/Lionel_Messi">
+                <a href="https://en.wikipedia.org/wiki/Lionel_Messi"><h3>Lionel Andrés "Leo" Messi[note 1]</h3></a>
+                (Spanish pronunciation: [ljoˈnel anˈdɾes ˈmesi] ⓘ; born 24 June 1987)
+                is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer 
+                club Inter Miami and the Argentina national team. Widely regarded as one of the greatest players of all time.
+            </blockquote>
+
+            <div class="achievements">
+                <h3> Few Achievements of Messi</h3>
+                <ol class="achievments-detail">
+                    <li>8 Ballon d'Or awards</li>
+                    <li>6 European Golden Shoes</li>
+                    <li>8 times named as World's best player</li>
+                </ol>
+
+                <p>All Achievements can be visible using this link to a new tab: <br>
+                <a href="https://messi.com/en/honours-and-achievements/" target="_blank"><h2>Overall Achievements</h2></a>
+                </p>
+            </div>
+
+            <div class="messi-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg/220px-Lionel-Messi-Argentina-2022-FIFA-World-Cup_sharpness.jpg" alt="Lionel Messi with argentina at the 2022 Fifa World Cup"/>
+            </div>
+        </div>
+
+        <div class="preferences">
+            <p>This is few information related to my favorite player, Now, <br></p>
+            <label for="favorite-player">Choose your favorite player</label>
+            <select name="favorite-player" id="player" placeholder="choose">
+                <option value="">--Please choose your favorite player--</option>
+                <option value="Ronaldo">Ronaldo(CR7)</option>
+                <option value="Ronaldo">Zlatan Ibrahimović</option>
+                <option value="Ronaldo">Wayne Rooney</option>
+                <option value="Ronaldo">Pelé</option>
+                <option value="Ronaldo">Diego Maradona</option>
+            </select>
+            <p>Your favorite player is not on the list? Sorry for that as i can accomodate only few with static code do provide the name below:</p>
+            <br>
+            <input name="favorite-player" placeholder="Enter your player name"/>
+        </div>  
+
+        <div class="myhobbies-container">
+            <p> Below are my hobbies and what i recently did/doing refering to them</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Playing games</th>
+                        <th>Learning new Technology/Things</th>
+                        <th>Last time visited</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Just Finished Black myth Wukong Recently with 100% Achievements</td>
+                        <td>Currently doing Angular with Springboot course on udemy</td>
+                        <td>Played last time on Sept 22nd 2024 <br> Actively pursuing the course 2 hours a day</td>
+                    </tr>
+                    <tr>
+                        <td>Played Valorant on weekends when my friends are online and i had free time</td>
+                        <td>Completed AWS Cloud Practitioner Course on Udemy</td>
+                        <td>Played last time on Sept 21st 2024 <br> Completed this course on May 7th 2024 </td>
+                    </tr>
+                    <tr>
+                        <td>Played Valorant on weekends when my friends are online and i had free time</td>
+                        <td>Currently learning about LLM(Large Language Models)</td>
+                        <td>Played last time on Sept 14th 2024 <br> Currently pursing the course 1 hour a day via youtube lectures </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </article>
 </body>
 </html>
